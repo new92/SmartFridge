@@ -26,7 +26,7 @@ while space != "Y" and space != "y" and space != "N" and space != "n" or space =
     print("[!] Invalid option !")
     time.sleep(1)
     space=input("[::] Please enter again[Y/N]: ")
-if space == "Y":
+if space == "Y" or "y":
     print(available)
 else:
     print("[+] Exiting...")
