@@ -9,4 +9,4 @@ def check(Fridge):
         if prod not in Fridge:
             MissingProd.append(prod)
     if len(MissingProd) == 0 and d >= 1:
-        print("0 Missing products !")
+        print("[!] 0 Missing products !")
